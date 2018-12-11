@@ -1,7 +1,7 @@
 def  appName = 'service-tracker-ui'
 def  feSvcName = "${appName}"
 def  ACRPATH = 'hackfest'
-def  ACRNAME = 'acrhackfestjayeonjeon27192'
+def  ACRNAME = '<container_registry_name>'
 def  ACRURL = 'azurecr.io'
 def  imageTag = "${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
 
